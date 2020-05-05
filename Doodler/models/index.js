@@ -8,10 +8,14 @@ mongoose.connect('mongodb://localhost:27017/doodler', {
 	useFindAndModify: false,
 	useCreateIndex: true,
 	useUnifiedTopology: true,
-});
+})
+	.then(()=> console.log("MongoDB connected successfully"))
+	.catch((err)=> console.log(`MongoDB error: ${err}`))
+
 
 module.exports = {
 	Character : CharacterModel
-}
+	Gallery: GalleryModel
+};
 
 
