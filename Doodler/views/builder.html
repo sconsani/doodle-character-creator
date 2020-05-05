@@ -13,10 +13,11 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="/styles/builder.css">
   
-
+	<!-- VENDOR SCRIPTS -->
+  <script defer src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
   <!-- Main JS -->
-<!--   <script defer src="buildCharacter.js"></script> -->
+  <script defer src="/scripts/buildCharacter.js"></script>
 
 
    <!-- Bootstrap JS -->
@@ -54,61 +55,28 @@
 <section class = "builder m-5">
 		<div class = "row">
 			<div class = "columnone col-3">
-				<div class = "body-btn-container">
+				<div class = "body-btn-container" id="body-parts">
 
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<!-- <img class = "preview" src ="logo.png" alt = "" height = "50" width = "50"> -->
-							<p>Head</p>
-						</span>
-					</div>
+<!-- javascript here for the loop of body parts -->
 
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<img class = "preview" src ="" alt = "">
-							<p>Torso</p>
-						</span>
-					</div>
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<img class = "preview" src ="" alt = "">
-							<p>Legs</p>
-						</span>
-					</div>
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<img class = "preview" src ="" alt = "">
-							<p>Feet</p>
-						</span>
-					</div>
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<img class = "preview" src ="" alt = "">
-							<p>Accessories</p>
-						</span>
-					</div>
-					<div class = "body-btn" data-target = "acc-head">
-						<span>
-							<img class = "preview" src ="" alt = "">
-							<p>Background</p>
-						</span>
-					</div>
-
-				<!-- 	<button class = "btn btn-outline-dark" type = "button">Head</button>
-					<button class = "btn btn-outline-dark" type = "button">Torso</button>
-					<button class = "btn btn-outline-dark" type = "button">Legs</button>
-					<button class = "btn btn-outline-dark" type = "button">Feet</button>
-					<button class = "btn btn-outline-dark" type = "button">Accessories</button>
-					<button class = "btn btn-outline-dark" type = "button">Background</button> -->
 				</div>
 			</div>	
-		
+<!-- image block for character to be created -->
 			<div class = "columntwo col-6">
 				<div class = "doodle-container">
 					<img class = "center-block" alt = "" src = "images/home-hero.png" height = "500" width = "auto">
+
+<!-- INSERT AUDIO CLIP HERE -->
+					<!-- audio controls autoplay loop>
+					  <source src="https://open.spotify.com/embed/track/2D2lazsae9o1UoVPUAdxyT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" type="audio/ogg">
+
+					  <source src="horse.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+					</audio> -->
 				</div>
 			</div>
 
+<!-- options container of data to choose from -->
 			<div class = "columnthree col-3">
 				<div class = "options-container">
 					<!-- this should go through the data and depending on the ID populate the
@@ -116,9 +84,7 @@
 					<!-- use javascript to create these and not hard code them -->
 
 
-					<!-- for now i am figuring out the html for how to place these so they look good -->
-					<!-- MAKE SURE YOU MAKE THIS RESPONSIVE!!!!!! -->
-
+					
 					<div class="row">
 					  <div class="box col-6 col-sm-3">
 						<img class = "thumb mt-2 mb-2" src ="images/head-red-thumb.png" alt = "" height = "100">
@@ -148,7 +114,7 @@
 
 </body>
 
-<footer class="bg-light text-center text-dark pt-4 pb-4">
-    <p class="mb-0">Sammy Consani</p>
+<footer class="bg-light text-left text-dark pt-4 pb-4">
+    <p class="mb-0">By: Sammy Consani</p>
   </footer>
 </html>

@@ -1,17 +1,51 @@
-const db = require('./models');
+const mongoose = require("mongoose");
+const db = require("./models");
+const DB_URI = "mongodb://localhost:27017/doodler";
+
+mongoose.connect(DB_URI, {
+	useNewUrlParser: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+    useUnifiedTopology: true
+})
+
+	.then(()=> console.log("MongoDB connected successfully"))
+	.catch((err)=> console.log(`MongoDB error: ${err}`))
 
 
+const newCharacter = [
+	name: {
+		type: Name,
+		image: Sammy
+	},
+	head: {
+		type: Head,
+		image: ["#"]
+	},
+	torso: {
+		type: Torso,
+		image: ["#" bodypart.name]
+	},
+	legs: {
+		type: Legs,
+		image: ["#"]
+	},
+	feet: {
+		type: Feet,
+		image: ["#"]
+	},
+	background: {
+		type: Background,
+		image: ["#"]
+	},
+	accessories: {
+		type: Accessories,
+		image: ["#"]
+	},
 
-const newCharacter = {
-	name: "SammyDood",
-	head: "redhead",
-	torso: "black-shirt",
-	legs: "green-pants",
-	feet: "white-vans",
-	background: "empty",
-	accessories: "skateboard"
+];
 
-}
+
 
 db.Character.create(newCharacter, (err, savedCharacter)=> {
 	if (err) {
@@ -19,3 +53,22 @@ db.Character.create(newCharacter, (err, savedCharacter)=> {
 	}
 	console.log(`saved new character: ${savedCharacter}`);
 });
+
+// db.Character.deleteMany({}, (err, result) => {
+// 	if (err) {
+// 		console.log(err);
+// 		process.exit();
+// 	}
+// 	console.log(`Successfully deleted ${result.deletedCount} donut stores`);
+// 	process.exit();
+// });
+
+
+
+
+
+
+
+
+
+
