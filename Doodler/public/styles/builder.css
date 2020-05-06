@@ -16,7 +16,7 @@
 
 .box img {
 	position: center;
-	width: auto;
+	width: 100%;
 	display: block;
 	text-align: center;
 	margin: 0;

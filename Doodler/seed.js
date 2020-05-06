@@ -12,6 +12,12 @@ mongoose.connect(DB_URI, {
 	.then(()=> console.log("MongoDB connected successfully"))
 	.catch((err)=> console.log(`MongoDB error: ${err}`))
 
+// let heads = ["https://i.imgur.com/AI4jstJ.png", "", "", ""]
+// let torso = ["", "", "", ""]
+// let legs = ["", "", "", ""]
+// let feet = ["", "", "", ""]
+// let background = ["", "", "", ""]
+// let accessories = ["", "", "", ""]
 
 const newCharacter = [
 	name: {
@@ -20,7 +26,7 @@ const newCharacter = [
 	},
 	head: {
 		type: Head,
-		image: ["#"]
+		image: ["https://i.imgur.com/AI4jstJ.png"]
 	},
 	torso: {
 		type: Torso,

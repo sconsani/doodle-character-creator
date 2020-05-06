@@ -3,7 +3,7 @@ const mongoose = require('mongoose'),
 
 const BodypartSchema = new Schema ({
 	name : String,
-	options : [String]
+	imgoptions : [String]
 })
 
 const Bodypart = mongoose.model("Bodypart", BodypartSchema);

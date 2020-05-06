@@ -4,31 +4,30 @@ const mongoose = require('mongoose'),
 const CharacterSchema = new Schema ({
 	name: {
 		type: String,
-		imagelink: String
 	},
 	head: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 	torso: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 	legs: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 	feet: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 	background: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 	accessories: {
 		type: String,
-		image: String
+		imagelink: String
 	},
 
 });
