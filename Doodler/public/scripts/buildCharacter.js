@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 	function renderBuilderParts(builderparts) {
 		// let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
-		console.log("renderBuilderParts- FUNCTION");
+		console.log("renderBuilderParts");
 
 		for (i=0; i<parts.length; i++ ) {
 			$("#body-parts").append(`<div class = "body-btn" data-target = "acc" id = "${parts[i]}"><span><p>${parts[i]}</p></span></div>`)
@@ -51,26 +51,31 @@ renderBuilderParts();
 									<img class = "thumb mt-2 mb-2" src ="${headsthumb[i]}" id = "${headsthumb[i]} alt = "" height = "100">
 					 				</div> `)
 
-			// headsthumb[i].style.display = "show";
+			// let heads = "live"
 			};
 		});
 	};
+// let headsactive = "live"
 
 headonClickShow();
 
 	function headClicked() {
-		console.log(headsthumb[i])
-		console.log("headClicked- FUNCTION");
 
-		if (headsthumb[0].style.display == "show") {
+		// console.log("headClicked- FUNCTION");
+
+		// if (heads == "live") {
+		// 	console.log(headonClickShow)
 			$(`#${headsthumb[i]}`).on("click", function (event){
 				$("dooodle-container").append(`<div class = "head-image-active">
 												<img class = "thumb" src = ${headsthumb[i]} alt ="testing head show" height = "100">
 												</div>`)
 																});
 												}
+		// else {
+		// 	console.log("this isn't working")
+		// }
 
-							};
+							// };
 headClicked();
 
 });
