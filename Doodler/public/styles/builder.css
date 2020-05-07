@@ -26,14 +26,14 @@
   	margin-right: auto;
 }
 
-.body-btn {
+/*.body-btn {
 	border: 2px;
 	border-style: solid;
 	border-color: green;
 	margin-bottom: 5px;
 	width: 50%;
 	
-}
+}*/
 
 .toggle-content {
 	display: none;
@@ -78,6 +78,17 @@
 	height: 100%;
 }
 
+p, #showall {
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	padding: 2%;
+	border-radius: 10%;
+	-webkit-box-shadow: 0px 3px 11px;
+	text-align: center;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 20px;
+}
 
 
 

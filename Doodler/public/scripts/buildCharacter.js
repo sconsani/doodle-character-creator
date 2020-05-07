@@ -1,66 +1,66 @@
 console.log("sanity check- build a character")
 // var domtoimage = require('dom-to-image');
 
-$(document).ready(function(){
-	let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
-//get these file sizes correct for both
-	let heads = ["https://i.imgur.com/4MxsHVR.png", "https://i.imgur.com/QV3hLEX.png", "https://i.imgur.com/bzJwNOT.png", "https://i.imgur.com/lSoPalj.png"]
-	let torso = ["", "", "", ""]
-	let legs = ["", "", "", ""]
-	let feet = ["", "", "", ""]
-	let background = ["", "", "", ""]
-	let accessories = ["", "", "", ""]
+// $(document).ready(function(){
+// 	let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
+// //get these file sizes correct for both
+// 	let heads = ["https://i.imgur.com/4MxsHVR.png", "https://i.imgur.com/QV3hLEX.png", "https://i.imgur.com/bzJwNOT.png", "https://i.imgur.com/lSoPalj.png"]
+// 	let torso = ["", "", "", ""]
+// 	let legs = ["", "", "", ""]
+// 	let feet = ["", "", "", ""]
+// 	let background = ["", "", "", ""]
+// 	let accessories = ["", "", "", ""]
 
 // get these file sizes correct for display- save smaller
-	let headsthumb = ["https://i.imgur.com/4MxsHVR.png", "https://i.imgur.com/QV3hLEX.png", "https://i.imgur.com/bzJwNOT.png", "https://i.imgur.com/lSoPalj.png"]
-	// let headsthumbID = ["readhead", "brainhead", "painter", "tattoo"]
-	let torsothumb = ["", "", "", ""]
-	let legsthumb = ["", "", "", ""]
-	let feetthumb = ["", "", "", ""]
-	let backgroundthumb = ["", "", "", ""]
-	let accessoriesthumb = ["", "", "", ""]
+	// let headsthumb = ["https://i.imgur.com/4MxsHVR.png", "https://i.imgur.com/QV3hLEX.png", "https://i.imgur.com/bzJwNOT.png", "https://i.imgur.com/lSoPalj.png"]
+	// // let headsthumbID = ["readhead", "brainhead", "painter", "tattoo"]
+	// let torsothumb = ["", "", "", ""]
+	// let legsthumb = ["", "", "", ""]
+	// let feetthumb = ["", "", "", ""]
+	// let backgroundthumb = ["", "", "", ""]
+	// let accessoriesthumb = ["", "", "", ""]
 
 	// let headcoords = set coordinates here for each item, or set it in the css/javascript?
 
 
 
-	function renderBuilderParts(builderparts) {
-		// let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
-		console.log("renderBuilderParts");
+// 	function renderBuilderParts(builderparts) {
+// 		// let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
+// 		console.log("renderBuilderParts");
 
-		for (i=0; i<parts.length; i++ ) {
-			$("#body-parts").append(`<div class = "body-btn" data-target = "acc" id = "${parts[i]}"><span><p class ="">${parts[i]}</p></span></div>`)
+// 		for (i=0; i<parts.length; i++ ) {
+// 			$("#body-parts").append(`<div class = "body-btn" data-target = "acc" id = "${parts[i]}"><span><p class ="">${parts[i]}</p></span></div>`)
 
-			};
-	};
+// 			};
+// 	};
 
-renderBuilderParts();
+// renderBuilderParts();
 
 								//THIS IS WORKING
-function headonClickShow() {
+// function headonClickShow() {
 
-	function toggleHeads() {
-		var x = document.getElementById("options-row-heads")
-		if (x.style.display ==="none") {
-			x.style.display = "block";
-		}
-		else {
-			x.style.display = "none";
-		}
-	}
+// 	function toggleHeads() {
+// 		var x = document.getElementById("options-row-heads")
+// 		if (x.style.display ==="none") {
+// 			x.style.display = "block";
+// 		}
+// 		else {
+// 			x.style.display = "none";
+// 		}
+// 	}
 
 // 		// if data-target = "head" { then do this and set it to show, if a different one is 
 // 		// 	clicked- then hide the previous and show the new one}
 // 		console.log("headonClickShow- FUNCTION");
 
-	$('#head').on("click", function(event){
-		toggleHeads();
-	});
-	};
+// 	$('#head').on("click", function(event){
+// 		toggleHeads();
+// 	});
+// 	};
 
-headonClickShow();
+// headonClickShow();
 
-});
+// });
 							//THIS ABOVE IS WORKING
 
 							///the below is an attempt for the options for loop
