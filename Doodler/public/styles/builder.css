@@ -2,10 +2,10 @@
 	color: black;
 }
 
-.thumb img{
+/*.thumb img{
 	height: 20px;
 	width: auto;
-}
+}*/
 .box {
 	border: 2px;
 	border-style: solid;
@@ -88,6 +88,11 @@ p, #showall {
 	text-align: center;
 	font-family: 'Patrick Hand SC', cursive;
 	font-size: 20px;
+}
+
+div .targetDiv .box{
+	height: 20px;
+	width: auto;
 }
 
 

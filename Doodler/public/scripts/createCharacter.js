@@ -3,48 +3,47 @@ console.log("sanity check- create a character")
 
 $(document).ready(function(){
 
-	// jQuery(function(){
-	// 	jQuery('#showall').click(function(){
-	// 		jQuery('.targetDiv').show();
-	// 	});
-	// 	jQuery('.showSingle').click(function(){
-	// 		jQuery('targetDiv').hide();
-	// 		jQuery('#div' +$(this).attr('target')).show();
-	// 	});
-	// });
+	$(function(){
+		console.log("running jquery functinon")
 
-	function showFeatures(){
-		console.log("running new functinon")
 		$('#showall').on("click", function(event){
+			console.log("running showall functinon")
 			$('.targetDiv').show();
 		});
 
 		$('.showSingle').on("click", function(event){
-			$('targetDiv').hide();
-			$('#div' +$(this).attr('target')).show();
-		});
-	};
+			console.log("running show single functinon")
 
-	showFeatures();
+			$('targetDiv').hide();
+			console.log("hide is working")
+
+			$('#div' +$(this).attr('target')).show();
+			console.log("this div is working")
+			console.log($(this))
+			
+		});
+	});
+
+
+	
+
+	// function showFeatures(){
+	// 	console.log("running new functinon")
+	// 	$('#showall').on("click", function(event){
+	// 		console.log("running new functinon")
+	// 		$('.targetDiv').show();
+	// 	});
+
+	// 	$('.showSingle').on("click", function(event){
+	// 		console.log("running new functinon")
+	// 		$('targetDiv').hide();
+	// 		console.log("hide is working")
+	// 		$('#div' +$(this).attr('target')).show();
+	// 	});
+	// };
+
+	// showFeatures();
 
 });
-
-
-
-
-// 	function showRedHead() {
-
-// 		$('#redheadthumb').on("click", function(event){
-// 			$("#red-head-container").append(`<img id = "redhead" class = "center-block" src = "https://i.imgur.com/4MxsHVR.png">`)
-		
-// 			});
-// };
-
-// showRedHead();
-
-// 	function replacewithother() {
-
-// 	}
-
 
 
