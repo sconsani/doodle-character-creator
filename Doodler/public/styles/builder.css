@@ -34,3 +34,34 @@
 	width: 50%;
 	
 }
+
+.toggle-content {
+	display: none;
+}
+
+.toggle-content .is-visible{
+	display: block;
+}
+
+#options-row-heads {
+	display: none;
+}
+
+ 
+#options-row-torsos { 
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
