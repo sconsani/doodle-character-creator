@@ -52,7 +52,31 @@
 	display: none;
 }
 
+#sammy-test {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index:1;
+}
 
+.contained-head{
+	display: relative;
+	z-index: 2;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+	height: 200px;
+	width: 150px;
+}
+
+#red-head-container{
+	height: 200px;
+}
+
+#redhead {
+	display: none;
+	height: 100%;
+}
 
 
 

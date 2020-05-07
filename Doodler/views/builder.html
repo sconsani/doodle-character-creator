@@ -18,6 +18,7 @@
 
   <!-- Main JS -->
   <script defer src="/scripts/buildCharacter.js"></script>
+   <script defer src="/scripts/createCharacter.js"></script>
 
 
    <!-- Bootstrap JS -->
@@ -64,24 +65,16 @@
 <!-- image block for character to be created -->
 			<div class = "columntwo col-6">
 				<div class = "doodle-container">
-			<p>
-				<a class = "toggle" href = "#">Toggle Div</a>
-			</p>
-
-			<div class = "toggle-content" id = "all-heads">
-				<h1>testing the toggle!!!!!!</h1>
-			</div>
-
-
-					<!-- <img class = "center-block" alt = "" src = "images/home-hero.png" height = "500" width = "auto"> -->
-
+<!-- <img class = "center-block" alt = "" src = "images/home-hero.png" id = "sammy-test" height = "500" width = "auto"> -->
 <!-- INSERT AUDIO CLIP HERE -->
-					<!-- audio controls autoplay loop>
-					  <source src="https://open.spotify.com/embed/track/2D2lazsae9o1UoVPUAdxyT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" type="audio/ogg">
+					<div class = "center-blockcontained-head">
+						<div id = "red-head-container">
+						</div>
+					</div>
 
-					  <source src="horse.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
-					</audio> -->
+
+
+					
 				</div>
 			</div>
 
@@ -94,20 +87,20 @@
 <!-- HEADS			 -->
 					<div class="row" id = "options-row-heads">
 					  <div class="box col-6 col-sm-3">
-						<img class = "thumb mt-2 mb-2" src ="images/head-red-thumb.png" alt = "" height = "100">
+						<img class = "thumb mt-2 mb-2" src ="images/head-red-thumb.png" id="redhead" alt = "" height = "100">
 					  </div>
 					  <div class="box col-6 col-sm-3">
-						<img class = "thumb mt-2 mb-2" src ="images/thumb-head-brain.png" alt = "" height = "100">
+						<img class = "thumb mt-2 mb-2" src ="images/thumb-head-brain.png" id="brain"alt = "" height = "100">
 					  </div>
 <!-- 
 					  Force next columns to break to new line -->
 					  <div class="w-100"></div>
 
 					  <div class="box col-6 col-sm-3">
-						<img class = "thumb mt-2 mb-2" src ="images/thumb-tattoo-head.png" alt = "" height = "80">
+						<img class = "thumb mt-2 mb-2" src ="images/thumb-tattoo-head.png" id="tattoo" alt = "" height = "80">
 					  </div>
 					  <div class="box col-6 col-sm-3">
-						<img class = "thumb mt-2 mb-2" src ="images/thumb-painter-head.png" alt = "" height = "100">
+						<img class = "thumb mt-2 mb-2" src ="images/thumb-painter-head.png" id="painter" alt = "" height = "100">
 					  </div>
 					</div>
 <!-- TORSO -->

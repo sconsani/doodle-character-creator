@@ -1,9 +1,6 @@
 console.log("sanity check- build a character")
 // var domtoimage = require('dom-to-image');
 
-
-
-
 $(document).ready(function(){
 	let parts = ["head", "torso", "legs", "feet", "accessories", "background"]
 //get these file sizes correct for both
