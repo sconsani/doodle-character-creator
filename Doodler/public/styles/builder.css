@@ -103,6 +103,7 @@ color: black;
 	border-style: solid;
 	border-color: red;
 	height: 100%;
+	border-width: 5px;
 }
 
 #sammy-test {
@@ -129,11 +130,24 @@ color: black;
 #head1 {
 	display: block;
 	text-align: center;
+	border-style: solid;
+	border-color: orange;
 }
 
 #torso1 {
 	display: block;
 	text-align: center;
+	border-style: solid;
+	border-color: yellow;
+/*	margin-top: -75px;*/
+}
+
+#legs1 {
+	display: block;
+	text-align: center;
+	border-style: solid;
+	border-color: green;
+/*	margin-top: -75px;*/
 }
 
 .char-head {
@@ -154,6 +168,8 @@ color: black;
 
 .build-img {
 	height: 200px;
+	border-style: dashed;
+	border-color: red;
 }
 
 
