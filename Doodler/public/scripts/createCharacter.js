@@ -1,25 +1,26 @@
 console.log("sanity check- create a character")
 // var domtoimage = require('dom-to-image');
 
-jQuery(document).ready(function(){
+$(document).ready(function(){
     $(".targetDiv").hide();
 });
 
 
-jQuery(function(){
-   jQuery('#showall').click(function(){
-      jQuery('.targetDiv').show('.cnt');
+$(function(){
+   $('#showall').click(function(){
+      $('.targetDiv').show('.cnt');
    });
-   jQuery('#hideall').click(function() {
-      jQuery('.targetDiv').hide('.cnt');
+   $('#hideall').click(function() {
+      $('.targetDiv').hide('.cnt');
    });
    
-   jQuery('.showSingle').click(function(){
-      jQuery('.targetDiv').hide('.cnt');
-      jQuery('#div'+$(this).attr('target')).toggle();
+   $('.showSingle').click(function(){
+      $('.targetDiv').hide('.cnt');
+      $('#div'+$(this).attr('target')).toggle();
 
    }); 
 });
+
 
 
 

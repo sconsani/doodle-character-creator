@@ -89,6 +89,18 @@ color: black;
   	margin-right: auto;
 }
 
+.builder {
+	border-style: solid;
+	border-color: green;
+	height: 700px;
+}
+
+.doodle-container {
+	border-style: solid;
+	border-color: red;
+	height: 100%;
+}
+
 #sammy-test {
 	position: relative;
 	top: 0;
@@ -118,6 +130,22 @@ color: black;
 .char-head {
 	height: 200px;
 
+}
+
+.save {
+	text-align: center;
+	position: bottom;
+}
+
+.functions {
+	border-style: solid;
+	border-color: blue;
+	
+}
+
+#head1 {
+	display: block;
+	text-align: center;
 }
 
 
