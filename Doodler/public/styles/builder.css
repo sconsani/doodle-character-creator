@@ -67,6 +67,10 @@ color: black;
 
 .divImage {
    height: 100px;
+   margin: 5px;
+   padding: 2px;
+   border-style: dashed;
+   border-color: red;
 }
 
 .box {
@@ -143,9 +147,8 @@ color: black;
 	
 }
 
-#head1 {
-	display: block;
-	text-align: center;
+.build-img {
+	height: 200px;
 }
 
 
