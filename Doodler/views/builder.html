@@ -31,9 +31,9 @@
 </head>
 <body>
 	<header>
-	    <nav class="navbar navbar-expand-md navbar-light bg-light">
-	      <div class="container ">
-			<a class="navbar-brand content-center ml-2 h4" href="/" title = "Home page"><img src = "images/logo.png" alt = "doodle logo" height = "50" width = "50" class = "m-0 p-0">  Doodler</a>        
+	    <nav class="navbar navbar-expand-md navbar-light bg-light"id = "logo">
+	      <div class="container">
+			<a class="navbar-brand content-center ml-2 h4" id = "logo" href="/" title = "Home page"><img src = "images/logo.png" alt = "doodle logo" height = "50" width = "50" class = "m-0 p-0">  Doodler</a>        
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 	          <span class="navbar-toggler-icon"></span>
 	        </button>
@@ -41,10 +41,10 @@
 	        <div class="collapse navbar-collapse" id="navbarCollapse">
 	          <ul class="navbar-nav ml-auto">
 	            <li class="nav-item">
-	              <a class="nav-link" href="/gallery">All Doodles</a>
+	              <a class="nav-link" id = "logo" href="/gallery">All Doodles</a>
 	            </li>
 	            <li class="nav-item">
-	              <a class="nav-link" href="/create-a-doodle">Create A Doodle</a>
+	              <a class="nav-link" id = "logo" href="/create-a-doodle">Create A Doodle</a>
 	            </li>
 	          </ul>
 
@@ -56,152 +56,55 @@
 <section class = "builder m-5">
 		<div class = "row">
 			<div class = "columnone col-3">
-				<div class = "body-btn-container" id="body-parts">
-
-<!-- javascript here for the loop of body parts -->
-
-					<div class = "menu body-btn">
-							<!-- <a id= "showall">All Features</a>
-							<a class = "showSingle" target = "1">Head</a>
-							<a class = "showSingle" target = "2">Torso</a>
-							<a class = "showSingle" target = "3">Legs</a>
-							<a class = "showSingle" target = "4">Feet</a>
-							<a class = "showSingle" target = "5">Background</a>
-							<a class = "showSingle" target = "6">Accessories</a>
-					</div>  -->
-
-
-						<div class = "head1 showdiv1">
-							<p class = "head1 showSingle" target = "1">Head</p>
-						</div>
-
-						<div class = "torso2 showdiv2">
-							<p class = "torso2 showSingle" target = "2">Torso</p>
-						</div>
-
-						<div class = "legs3 showdiv3">
-							<p class = "legs3 showSingle" target = "3">Legs</p>
-						</div>
-
-						<!-- <div class = "showdiv4">
-							<p class = "feet4 showSingle" target = "4">Feet</p>
-						</div>
-
-						<div class = "showdiv5">
-							<p class = "background5 showSingle" target = "5">Background</p>
-						</div>
-
-						<div class = "showdiv6">
-							<p class = "accessories6 showSingle" target = "6">Accessories</p>
-						</div> -->
-				</div>
-
+				<div class="menu">
+				   <a  id="showall">All</a>
+				   <!-- <a  id="hideall">Hide All</a> -->
+				   <a  class="showSingle" target="1">Head</a>
+				   <a  class="showSingle" target="2">Torso</a>
+				   <a  class="showSingle" target="3">Legs</a>
+				   <a  class="showSingle" target="4">Feet</a>
+				</div>		
 			</div>
-		</div>	
+
+		
 	
 <!-- image block for character to be created -->
-			<div class = "columntwo col-6">
-				<div class = "doodle-container">
-<!-- <img class = "center-block" alt = "" src = "images/home-hero.png" id = "sammy-test" height = "500" width = "auto"> -->
-<!-- INSERT AUDIO CLIP HERE -->
-					<!-- div class = "center-blockcontained-head">
-						<div id = "red-head-container">
-						</div>
-					</div> -->
-
-
-
-					
+		<div class = "columntwo col-6">
+			<div class = "doodle-container">
+				<div class = "head1">
 				</div>
+				<div class = "torso1">
+				</div>
+				<div class = "legs1">
+				</div>
+				<div class = "feet1">
+				</div>
+
+<!-- INSERT AUDIO CLIP HERE -->
+<!-- INSERT RANDOMIZER BUTTON HERE -->
+<!-- INSERT START OVER BUTTON HERE -->
+					
 			</div>
+		</div>
 
 <!-- options container of data to choose from -->
-			<div class = "columnthree col-3">
-				<div class = "content options-container" id = "options">
-					<!-- this should go through the data and depending on the ID populate the
-					the images for each selected body type -->
-					<!-- use javascript to create these and not hard code them -->
-<!-- HEADS div1			 -->
-					<div class="heads row" id = "heads div1 options-row-heads">
+		<div class = "columnthree col-3">
+			<section class="cnt">
+			   <div id="div1"  class="targetDiv">
+			      <img src = "https://i.imgur.com/thqi8Jj.png" id = "divImage">
+			      <img src = "https://i.imgur.com/Zr0qWZC.png" id = "divImage">
+			      <img src = "https://i.imgur.com/s87FwmW.png" id = "divImage">
+			      <img src = "https://i.imgur.com/JxxEDgI.png" id = "divImage">
+			   </div>
+			   <div id="div2" class="targetDiv">All Torsos Here</div>
 
-						   <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" id="red"alt = "" height = "100">
-						  </div>
+			   <div id="div3" class="targetDiv">All legs Here</div>
 
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" id="brain"alt = "" height = "100">
-						  </div>
-	
+			   <div id="div4" class="targetDiv">All Feet Here</div>
 
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-tattoo-head.png" id="tattoo" alt = "" height = "80">
-						  </div>
-						  <!-- 
-						  Force next columns to break to new line -->
-						  <div class="w-100"></div>
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-painter-head.png" id="painter" alt = "" height = "150">
-						  </div>
-					</div>
-<!-- TORSO div2-->
-					<div class="torsos targetDiv row" id = "torsos div2 options-row-torsos" style="display:none;">
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-painter-head.png" alt = "" height = "100">
-						  </div>
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-painter-head.png" alt = "" height = "100">
-						  </div>
-
-
-						  <div class=" targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-painter-head.png" alt = "" height = "80">
-						  </div>
-						  	<!-- 
-						  Force next columns to break to new line -->
-						  <div class="w-100"></div>
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-painter-head.png" alt = "" height = "100">
-						  </div>
-
-					</div>
-<!-- LEGS div3-->
-					<div class="legs row" id = "legs div3 options-row-legs" style="display:none;">
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" alt = "" height = "100">
-						  </div>
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" alt = "" height = "100">
-						  </div>
-	
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" alt = "" height = "80">
-						  </div>
-						  <!-- 
-						  Force next columns to break to new line -->
-						  <div class="w-100"></div>
-
-						  <div class="targetDiv box col-6 col-sm-3">
-							<img class = "targetDiv thumb mt-2 mb-2" src ="images/thumb-head-brain.png" alt = "" height = "100">
-						  </div>
-
-					</div>
-
-
-
-
-
-
-				</div>	
-
-			</div>
-</div>	
+			</section>
+		</div>
+	</div>
 
 </section>
 
