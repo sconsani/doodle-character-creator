@@ -131,6 +131,11 @@ color: black;
 	text-align: center;
 }
 
+#torso1 {
+	display: block;
+	text-align: center;
+}
+
 .char-head {
 	height: 200px;
 

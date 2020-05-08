@@ -1,7 +1,5 @@
 console.log("testing edit character.js")
 
-
-let selectedImg;
 let divone = document.getElementById('div1')
 
 
@@ -58,58 +56,4 @@ divone.onclick = function(event) {
 	console.log("clear before appending")
 	appendNewHead(targetid);
 };
-
-
-
-
-
-// 	if(targe)
-
-// 	if (selectedImg) {
-// 		$('#head1').append(`<div class = "empty"></div`)
-// 	}
-// 	selectedImg = img;
-// 	selectedImg.append(``)
-// }
-
-
-
-// works but not dynamic
-// $('#redhead').click(function() {
-
-
-				// 	//clear contents
-				// 	//click on bigger container/parents
-				// 	//event.target (child elements)
-				// 	//event delegation
-
-
-// 	$('#head1').append(`<img src = "https://i.imgur.com/thqi8Jj.png" class = "char-head">`)
-// 	console.log("running click")
-
-// 	//save to an global object of finished doodle
-
-
-// });
-
-// // works but not dynamic
-// $('#tattoo').click(function() {
-// 	$('#head1').append(`<img src = "https://i.imgur.com/JxxEDgI.png" class = "char-head">`)
-// 	console.log("running click")
-
-// });
-
-
-// $('#blackshirt').click(function() {
-// 	$('#torso1').append(`<img src = "https://i.imgur.com/3QSSCSw.png" class = "char-head">`)
-// 	console.log("running click")
-
-// });
-
-
-
-
-
-
-
 
