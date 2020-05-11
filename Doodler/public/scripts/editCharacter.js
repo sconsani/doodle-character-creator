@@ -31,11 +31,6 @@ function appendNewHead(targetid) {
 
 	}
 
-	else if (event.target.id === "tattoo") {
-		clearcontent();
-		$('#head1').append(`<img src="https://i.imgur.com/JxxEDgI.png" class = "build-img">`)
-
-	}
 
 	else {
 		console.log("add more images")
@@ -155,45 +150,3 @@ divthree.onclick = function(event) {
 	console.log("clear before appending")
 	appendNewLegs(targetid);
 };
-
-				//////DIV FOUR DIV FOUR DIV FOUR DIV FOUR //////////
-
-let divfour = document.getElementById('div4')
-console.log(divthree)
-
-
-function clearfeet() {
-	console.log("clearcontent")
-	$('#feet1').empty();
-
-};
-
-function appendNewFeet(targetid) {
-	if(event.target.id === "hiking") {
-		console.log("clearing content again")
-		clearlegs();
-		$('#feet1').append(`<img src="https://i.imgur.com/QKo9vDT.png" class = "build-img">`)
-
-	} 
-	
-	else {
-		console.log("add more images")
-	}
-
-	console.log("append new legs")
-};
-
-divfour.onclick = function(event) {
-	console.log(" on click")
-	let target = event.target;
-	let targetid = event.target.id
-	console.log(event.target)
-	console.log(event.target.id)
-
-	if (target.tagName = 'img'){
-	clearfeet();
-}
-	console.log("clear before appending")
-	appendNewFeet(targetid);
-};
-
