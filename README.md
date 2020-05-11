@@ -1,10 +1,10 @@
-#Doodler
+Doodler
 
 Doodler is a fun web app designed for users to create custom version "doodles" from outfit choices for hats/hair, tops, and pants! 
 
 Heroku Deployed Link: https://sammy-doodler.herokuapp.com/
 
-Languages Used:
+Technologies Used:
 HTML, CSS, Bootstrap, JavaScript, Mongoose, Express
 
 Installing "Doodler":
