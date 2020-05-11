@@ -19,4 +19,6 @@ Coming Plans for Doodler include:
 3. Starter Doodle Options to pick their "base" doodle before customizing their personality and style. 
 4. Profiles, for users to login and see their past created characters. 
 
-
+Big Feature Shout-Outs/Guidance: 
+https://codepen.io/kocsten/pen/rggjXp	Rainbow Button
+https://codepen.io/CthuKi/pen/YqZvRv	Showing and hiding multiple divs
