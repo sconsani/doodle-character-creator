@@ -23,15 +23,12 @@ Coming Plans for Doodler include:
 7. A Save button so the user can save a character to their profiles
 8. A download button for a user to be able to download a png file of their creation. 
 
-Big Feature Shout-Outs/Guidance: 
-https://codepen.io/kocsten/pen/rggjXp	Rainbow Button
-
-https://codepen.io/CthuKi/pen/YqZvRv	Showing and hiding multiple divs
-
-Other References and Resources:
-https://app.svgator.com/editor#/72c5ce479bdd4b009e1145f34b45948f
-https://myoctocat.com/build-your-octocat/
-https://charactercreator.org/
-https://friendlyfaces.co/
-https://joeschmoe.io/#wtf
+Other References, Resources and Guidance:
+1. https://app.svgator.com/editor#/72c5ce479bdd4b009e1145f34b45948f
+2. https://myoctocat.com/build-your-octocat/
+3. https://charactercreator.org/
+4. https://friendlyfaces.co/
+5. https://joeschmoe.io/#wtf
+6. https://codepen.io/kocsten/pen/rggjXp
+7. https://codepen.io/CthuKi/pen/YqZvRv
 
