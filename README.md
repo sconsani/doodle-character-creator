@@ -12,11 +12,11 @@ Dependencies: Mongoose, Express
 
 User Stories | Wireframes | ERD : https://docs.google.com/spreadsheets/d/1HXLz_qgF4lwF6tQ4QMSIX_6uvbvRIPrjbqgJWOOJ7aU/edit?usp=sharing
 
-
-A list of installation steps for the app itself and any dependencies - how would another developer run your site locally?
-Link to your user stories - who are your users, what do they want, and why?
-Link to your wireframes – sketches of major views / interfaces in your application.
-Link to your entity relationship diagrams – plan out your data relationships before coding.
-Descriptions of any unsolved problems or future features.
+"Doodler" is still in the works! 
+Coming Plans for Doodler include:
+1. Adding accessory, shoes and background image options for the doodle customization page!
+2. Creating a "Gallery" of Doodles to see all creations made by every user.
+3. Starter Doodle Options to pick their "base" doodle before customizing their personality and style. 
+4. Profiles, for users to login and see their past created characters. 
 
 
