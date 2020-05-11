@@ -18,16 +18,16 @@ function appendNewHead(targetid) {
 		// dynamic- relating to data rather than hardcoded
 		// $('#head1').append(`<img src=${}`)
 	} 
-	else if(event.target.id === "brain") {
+	else if(event.target.id === "purple") {
 		clearcontent();
 		console.log("this is the brain dummy")
-		$('#head1').append(`<img src="https://i.imgur.com/Zr0qWZC.png" class = "build-img">`)
+		$('#head1').append(`<img src="https://i.imgur.com/cSliq36.png" class = "build-img-purple">`)
 
 	}
 
-	else if (event.target.id === "painter") {
+	else if (event.target.id === "blackhair") {
 		clearcontent();
-		$('#head1').append(`<img src="https://i.imgur.com/s87FwmW.png" class = "build-img">`)
+		$('#head1').append(`<img src="https://i.imgur.com/vSfyfQQ.png" class = "build-img-black">`)
 
 	}
 
@@ -71,13 +71,23 @@ function cleartorso() {
 };
 
 function appendNewTorso(targetid) {
-	if(event.target.id === "blackshirt") {
+	if(event.target.id === "purpleshirt") {
 		console.log("clearing content again")
 		cleartorso();
-		$('#torso1').append(`<img src="https://i.imgur.com/3QSSCSw.png" class = "build-img">`)
+		$('#torso1').append(`<img src="https://i.imgur.com/Nyahg0z.png" class = "purple-shirt">`)
 
 	} 
-	
+	else if(event.target.id === "blackshirt") {
+		cleartorso();
+		$('#torso1').append(`<img src="https://i.imgur.com/5zw38he.png" class = "purple-shirt">`)
+
+	} 
+
+	else if(event.target.id === "blueshirt") {
+		cleartorso();
+		$('#torso1').append(`<img src="https://i.imgur.com/t0KyFlZ.png" class = "blue-shirt">`)
+
+	} 
 
 	else {
 		console.log("add more images")
@@ -113,10 +123,15 @@ function clearlegs() {
 };
 
 function appendNewLegs(targetid) {
-	if(event.target.id === "greenpants") {
+	if(event.target.id === "purplepants") {
 		console.log("clearing content again")
 		clearlegs();
-		$('#legs1').append(`<img src="https://i.imgur.com/QKo9vDT.png" class = "build-img">`)
+		$('#legs1').append(`<img src="https://i.imgur.com/wmtQalj.png" class = "purple-pants">`)
+
+	} 
+	else if(event.target.id === "blackshorts") {
+		clearlegs();
+		$('#legs1').append(`<img src="https://i.imgur.com/YAU0xgY.png" class = "black-shorts">`)
 
 	} 
 	
@@ -140,3 +155,45 @@ divthree.onclick = function(event) {
 	console.log("clear before appending")
 	appendNewLegs(targetid);
 };
+
+				//////DIV FOUR DIV FOUR DIV FOUR DIV FOUR //////////
+
+let divfour = document.getElementById('div4')
+console.log(divthree)
+
+
+function clearfeet() {
+	console.log("clearcontent")
+	$('#feet1').empty();
+
+};
+
+function appendNewFeet(targetid) {
+	if(event.target.id === "hiking") {
+		console.log("clearing content again")
+		clearlegs();
+		$('#feet1').append(`<img src="https://i.imgur.com/QKo9vDT.png" class = "build-img">`)
+
+	} 
+	
+	else {
+		console.log("add more images")
+	}
+
+	console.log("append new legs")
+};
+
+divfour.onclick = function(event) {
+	console.log(" on click")
+	let target = event.target;
+	let targetid = event.target.id
+	console.log(event.target)
+	console.log(event.target.id)
+
+	if (target.tagName = 'img'){
+	clearfeet();
+}
+	console.log("clear before appending")
+	appendNewFeet(targetid);
+};
+

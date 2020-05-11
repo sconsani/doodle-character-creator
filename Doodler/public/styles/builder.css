@@ -94,17 +94,28 @@ color: black;
 }
 
 .builder {
-	border-style: solid;
-	border-color: green;
 	height: 700px;
 }
+/*
+.columntwo {
+background-image: url('background-doodle.png');
+height: 600px;
+
+}*/
 
 .doodle-container {
+	/*background-image: url('https://i.imgur.com/EMpcK63.png');*/
+	/*background-repeat: no-repeat;*/
 	border-style: solid;
-	border-color: red;
-	height: 100%;
+	border-color: black;
+	height: 600px;
+	/*background-size: contain;*/
 	border-width: 5px;
+	/*background-size: 600px;*/
+	padding: 0;
 }
+
+
 
 #sammy-test {
 	position: relative;
@@ -117,39 +128,121 @@ color: black;
 	display: relative;
 	z-index: 2;
 	border-style: solid;
-	border-color: red;
+	border-color: black;
 	border-width: 2px;
 	height: 200px;
 	width: 150px;
 }
 
+
 #red-head-container{
 	height: 200px;
 }
 
+.background-doodle {
+	position: relative;
+	height: 600px;
+	top: 0;
+	left: 150px;
+
+}
+
 #head1 {
+	position: absolute;
+	top: 0;
+	left: 150px;
 	display: block;
 	text-align: center;
-	border-style: solid;
-	border-color: orange;
+	/*border-style: solid;
+	border-color: orange;*/
+	height: 300px;
+}
+#head1 {
+	position: absolute;
+	top: 0;
+	left: 160px;
+	display: block;
+	text-align: center;
+	/*border-style: solid;
+	border-color: orange;*/
+	height: 300px;
+}
+
+.build-img-purple {
+
+	height: 140px;
+	/*border-style: dashed;*/
+	/*border-color: red;*/
+}
+
+.purple-pants {
+	height: 225px;
+	/*border-style: dashed;*/
+	/*border-color: red;*/
+}
+
+.purple-shirt {
+	height: 180px;
+}
+
+.blue-shirt {
+	position: absolute;
+	height: 140px;
+	left: 8px;
+	/*width: 140px;*/
+}
+
+.black-shorts {
+	position: absolute;
+	height: 85px;
+	left: 5px;
+	
+}
+
+.build-img {
+
+	height: 300px;
+/*	border-style: dashed;
+	border-color: red;*/
+}
+
+.build-img-black {
+	height: 238px;
 }
 
 #torso1 {
+	position: absolute;
+	top: 230px;
+	left: 188px;
 	display: block;
 	text-align: center;
-	border-style: solid;
-	border-color: yellow;
+	/*border-style: solid;
+	border-color: yellow;*/
 /*	margin-top: -75px;*/
 }
 
 #legs1 {
+	position: absolute;
+	top: 350px;
+	/*bottom: 20;*/
+	left: 215px;
 	display: block;
-	text-align: center;
-	border-style: solid;
-	border-color: green;
+	/*text-align: center;*/
+	/*border-style: solid;*/
+	/*border-color: green;*/
 /*	margin-top: -75px;*/
 }
 
+#feet1 {
+	position: absolute;
+	top: 0;
+	left: 150px;
+	display: block;
+	text-align: center;
+	/*border-style: solid;
+	border-color: yellow;*/
+
+}
 .char-head {
 	height: 200px;
 
@@ -166,11 +259,6 @@ color: black;
 	
 }
 
-.build-img {
-	height: 200px;
-	border-style: dashed;
-	border-color: red;
-}
 
 
 
