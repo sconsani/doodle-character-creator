@@ -18,6 +18,8 @@ Coming Plans for Doodler include:
 2. Creating a "Gallery" of Doodles to see all creations made by every user.
 3. Starter Doodle Options to pick their "base" doodle before customizing their personality and style. 
 4. Profiles, for users to login and see their past created characters. 
+5. Randomizer Button for users to see random selections being built
+6. Audio Player implementation. 
 
 Big Feature Shout-Outs/Guidance: 
 https://codepen.io/kocsten/pen/rggjXp	Rainbow Button
